@@ -41,6 +41,7 @@ int main() {
         std::cerr << "Error opening file." << std::endl;
         return 1;
     }
+    
      outputFile << fileContents;
     outputFile.close();
 
